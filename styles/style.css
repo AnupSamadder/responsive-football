@@ -1,11 +1,10 @@
 /* <-------------------------------------Font Style Here------------------------------------> */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
-
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(207, 203, 203, 0.096);
 }
 
 /*<------------------------------------- Top Section Style ------------------------------> */
@@ -28,7 +27,7 @@ body{
     width: 557px;
     height: 438px;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 .click-button{
     background-color: #E02C6D;
@@ -41,17 +40,61 @@ body{
 /*<----------------------------- Player Section Style -------------------------> */
 
 .players-section{
-    background-color: gray;
+    margin-left: 130px;
+    margin-right: 150px;
+    margin-top: 70px;
     opacity: 25px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    /* justify-content: space-around; */
 }
 .player{
+    margin-bottom: 25px;
     width: 330px;
-    height: 474px;
-    box-shadow: 10px 10px 5px grey;
+    height: 426px;
+    box-shadow: 0px 0px 10px 2px grey;
+    border-radius: 5px;
+    padding: 25px;
+    margin-left: 25px;
+    color: #fff;
 }
 .player-photo img{
+    padding: 15px;
     width: 300px;
     height: 256px;
+}
+.player h2{
+    color: black;
+    font-size: 28px;
+    font-weight: 800;
+}
+.player p{
+    color: black;
+    font-weight: 700;
+}
+
+/* <--------------------------Footer Area Style Here--------------------------> */
+footer{
+    padding-left: 35%;
+    margin-top: 100px;
+}
+.ft-logo img{
+    height: 110px;
+    width: 480px;
+}
+.font-asm {
+    margin-left: 120px;
+}
+.font-asm a{
+    margin-right: 30px;
+    font-size: 30px;
+    color: #E02C6D;
+}
+
+/*<------------------------------ Media Query Here --------------------------> */
+
+@media screen {
+    
 }
