@@ -35,7 +35,14 @@ body{
     color: white;
     text-decoration: none;
     padding: 7px;
+    transition: 0.9s;
+    
 }
+.click-button:hover{
+    background-color: #ffef5e;
+    color: rgb(80, 255, 57);
+}
+
 
 /*<----------------------------- Player Section Style -------------------------> */
 
@@ -136,10 +143,13 @@ footer{
         align-items: center;
     }
     .ft-logo img{
+        margin-right: 500px;
         height: 100px;
         width: 250px;
     }
-    font-asm a{
+    
+    .font-asm a{
+        margin-right: 200px;
         margin-right: 10px;
         font-size: 30px;
         color: #E02C6D;
